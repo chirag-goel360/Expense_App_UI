@@ -25,48 +25,28 @@ class _BottomBarState extends State<BottomBar> {
               Icons.list,
               color: Colors.red,
             ),
-            title: Text(
-              'Home',
-              style: TextStyle(
-                color: Colors.red,
-              ),
-            ),
+            label: 'Home',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.card_giftcard,
               color: Colors.purple,
             ),
-            title: Text(
-              'Gifts',
-              style: TextStyle(
-                color: Colors.purple,
-              ),
-            ),
+            label: 'Gifts',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.favorite_border,
               color: Colors.green.shade700,
             ),
-            title: Text(
-              'Heart',
-              style: TextStyle(
-                color: Colors.green,
-              ),
-            ),
+            label: 'Heart',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.mail_outline,
               color: Colors.pink,
             ),
-            title: Text(
-              'Notification',
-              style: TextStyle(
-                color: Colors.pink,
-              ),
-            ),
+            label: 'Notification',
           ),
         ],
       ),
